@@ -1,3 +1,4 @@
+<#
 # x-domain-pswd-reset
 
 X-Domain password reset - workstation script - v1.0 - Simon Burbery - October 2022
@@ -31,3 +32,5 @@ Server:
 
 * Both workstation and server scripts log actions and errors to the eventlog files in "$fileshare"
 * There are also PowerShell transcripts (generally empty but there for troubleshooting).
+
+#>
