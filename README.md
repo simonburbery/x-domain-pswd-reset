@@ -10,7 +10,7 @@ There are two components:
 2. the server script; a scheduled task running on any 2016+ member server in the source domain that can contact source and target DC; requires AD PowerShell module
 
 # Workstation:
-- set the variable values in the 'UPDATE THESE VALUES' section below
+- set the variable values in the 'UPDATE THESE VALUES' section of the script
 - task runs during workstation logon and unlock
 - user is prompted when expiry is less than "$pswddays" away
 - current password is verified against source domain before allowing the change
